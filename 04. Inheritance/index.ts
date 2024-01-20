@@ -16,3 +16,5 @@ class Dog extends Animal {
     console.log('Woof! Woof!');
   }
 }
+
+export {};
