@@ -33,3 +33,6 @@ const car = new Car();
 car.start();
 car.stop();
 ```
+
+Inheritance: Represents an "is-a" relationship. For example, a Car class "is a" Vehicle class.
+Composition: Represents a "has-a" relationship. For example, a Car class "has an" Engine class.
