@@ -39,6 +39,21 @@ class Dog extends Animal {
 }
 ```
 
+when you define a class that extends another class (using the extends keyword), and the subclass (child class) has a constructor, it's necessary to call the super() method within the constructor of the subclass. This is because super() is responsible for calling the constructor of the parent class (superclass).
+
+````ts
+class A {
+  constructor() {}
+}
+
+class B extends A {
+  constructor() {
+    super()
+  }
+}
+
+```
+
 ### Method Overriding
 
 Method overriding allows a child class to provide a specific implementation of a method that is already defined in its parent class.
@@ -50,3 +65,4 @@ class Cat extends Animal {
   }
 }
 ```
+````
