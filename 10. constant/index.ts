@@ -8,3 +8,5 @@ class Circle {
 
 const c = new Circle();
 // c.PI = 3.6; // Cannot assign to 'PI' because it is a read-only property.
+
+export {};
